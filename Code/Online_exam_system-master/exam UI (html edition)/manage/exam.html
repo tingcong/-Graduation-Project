@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">	
+<title>在线考试系统</title>
+<link href="css/manage.css" type="text/css" rel="stylesheet">
+<link href="css/jquery.selectlist.css" type="text/css" rel="stylesheet">
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.selectlist.js"></script>
+<script src="js/exam.js"></script>
+</head>
+<body> 
+<header>
+<div id="exam_top">
+	<div class="leftF">
+		<span class="exam_head">数学2015年上学期期末考试</span>
+	</div>
+	<div class="rightF">
+		<span class="exam_head">学号：20131120001</span>
+		<span class="exam_head">姓名：周杰伦</span>
+	</div>
+	<div class="center">
+		<span class="exam_head">考试限时：60分钟</span>
+		<span class="exam_head">剩余时间：<span class="green" id="time"></span>分钟</span>
+	</div>
+</div>
+</header>
+<div class="main">
+	<div class="marklist rightF">
+		<ul class="single_mark_list">
+			<div class="mark_title" id="single_mark">
+				<a href="#single_title" class="mark"><ul>单项选择</ul></a>
+			</div>			
+			<li id="single_1_mark">
+				<a href="#single_1" class="mark"><ul>1</ul></a>
+			</li>
+			<li id="single_2_mark">
+				<a href="#single_2" class="mark"><ul>2</ul></a>
+			</li>
+			<li id="single_3_mark">
+				<a href="#single_3" class="mark"><ul>3</ul></a>
+			</li>
+			<li id="single_4_mark">
+				<a href="#single_4" class="mark"><ul>4</ul></a>
+			</li>
+			<li id="single_5_mark">
+				<a href="#single_5" class="mark"><ul>5</ul></a>
+			</li>
+		</ul>
+		<ul class="multi_mark_list">
+			<div class="mark_title" id="multi_mark">
+				<a href="#multi_title" class="mark"><ul>多项选择</ul></a>
+			</div>			
+			<li id="multi_1_mark">
+				<a href="#multi_1" class="mark"><ul>1</ul></a>
+			</li>
+			<li id="multi_2_mark">
+				<a href="#multi_2" class="mark"><ul>2</ul></a>
+			</li>
+			<li id="multi_3_mark">
+				<a href="#multi_3" class="mark"><ul>3</ul></a>
+			</li>
+			<li id="multi_4_mark">
+				<a href="#multi_4" class="mark"><ul>4</ul></a>
+			</li>
+			<li id="multi_5_mark">
+				<a href="#multi_5" class="mark"><ul>5</ul></a>
+			</li>
+		</ul>
+		<ul class="judge_mark_list">
+			<div class="mark_title" id="judge_mark">
+				<a href="#judge_title" class="mark"><ul>判断正误</ul></a>
+			</div>			
+			<li id="judge_1_mark">
+				<a href="#judge_1" class="mark"><ul>1</ul></a>
+			</li>
+			<li id="judge_2_mark">
+				<a href="#judge_2" class="mark"><ul>2</ul></a>
+			</li>
+			<li id="judge_3_mark">
+				<a href="#judge_3" class="mark"><ul>3</ul></a>
+			</li>
+			<li id="judge_4_mark">
+				<a href="#judge_4" class="mark"><ul>4</ul></a>
+			</li>
+			<li id="judge_5_mark">
+				<a href="#judge_5" class="mark"><ul>5</ul></a>
+			</li>
+			<li id="judge_6_mark">
+				<a href="#judge_6" class="mark"><ul>6</ul></a>
+			</li>
+			<li id="judge_7_mark">
+				<a href="#judge_7" class="mark"><ul>7</ul></a>
+			</li>
+			<li id="judge_8_mark">
+				<a href="#judge_8" class="mark"><ul>8</ul></a>
+			</li>
+			<li id="judge_9_mark">
+				<a href="#judge_9" class="mark"><ul>9</ul></a>
+			</li>
+			<li id="judge_10_mark">
+				<a href="#judge_10" class="mark"><ul>10</ul></a>
+			</li>
+		</ul>
+		<ul class="essay_mark_list">
+			<div class="mark_title">
+				<a href="#essay_title" class="mark" id="essay_mark"><ul>简答辨析</ul></a>
+			</div>			
+			<li id="essay_1_mark">
+				<a href="#essay_1" class="mark"><ul>1</ul></a>
+			</li>
+			<li id="essay_2_mark">
+				<a href="#essay_2" class="mark"><ul>2</ul></a>
+			</li>
+			<li id="essay_3_mark">
+				<a href="#essay_3" class="mark"><ul>3</ul></a>
+			</li>
+			<li id="essay_4_mark">
+				<a href="#essay_4" class="mark"><ul>4</ul></a>
+			</li>
+			<li id="essay_5_mark">
+				<a href="#essay_5" class="mark"><ul>5</ul></a>
+			</li>
+			<div class="submit_paper">
+				<a href="#" class="mark" id="submit"><ul>提交试卷</ul></a>
+			</div>
+		</ul>
+	</div>
+	<div class="blocker"></div>
+	<div class="examright leftF">
+		<div class="block" id="single_block">
+			<div class="title" id="single_title">一、单项选择</div>
+			<div class="content_box" id="single_1">
+				<select class="single_choice rightF" id="single_1_choice">
+					<option value="0">请选择正确答案</option>
+					<option value="1">A</option>
+					<option value="2">B</option>
+					<option value="3">C</option>
+					<option value="4">D</option>
+				</select>
+				<div class="content" id="single_1_title">1.在不是脑筋急转弯的情况下，1+1等于几?</div>
+				<div class="choice_box">
+					<div class="content" id="single_1_A">A.等于1</div>
+					<div class="content" id="single_1_B">B.等于11</div>
+					<div class="content" id="single_1_C">C.等于2</div>
+					<div class="content" id="single_1_D">D.等于0</div>
+				</div>
+			</div>
+			<div class="content_box" id="single_2">
+				<select class="single_choice rightF" id="single_2_choice">
+					<option value="0">请选择正确答案</option>
+					<option value="1">A</option>
+					<option value="2">B</option>
+					<option value="3">C</option>
+					<option value="4">D</option>
+				</select>
+				<div class="content" id="single_2_title">2.有一个园，半径是1，则它的面积是？</div>
+				<div class="choice_box">
+					<div class="content" id="single_2_A">A.π</div>
+					<div class="content" id="single_2_B">B.2π</div>
+					<div class="content" id="single_2_C">C.π/</div>
+					<div class="content" id="single_2_D">D.π^2</div>
+				</div>
+			</div>
+			<div class="content_box"  id="single_3">
+				<select class="single_choice rightF" id="single_3_choice">
+					<option value="0">请选择正确答案</option>
+					<option value="1">A</option>
+					<option value="2">B</option>
+					<option value="3">C</option>
+					<option value="4">D</option>
+				</select>
+				<div class="content" id="single_3_title">3.这真的是一道数学题吗？</div>
+				<div class="choice_box">
+					<div class="content" id="single_3_A">A.是的</div>
+					<div class="content" id="single_3_B">B.不是</div>
+					<div class="content" id="single_3_C">C.不知道</div>
+					<div class="content" id="single_3_D">D.以上都对</div>
+				</div>
+			</div>
+			<div class="content_box" id="single_4">
+				<select class="single_choice rightF" id="single_4_choice">
+					<option value="0">请选择正确答案</option>
+					<option value="1">A</option>
+					<option value="2">B</option>
+					<option value="3">C</option>
+					<option value="4">D</option>
+				</select>
+				<div class="content" id="single_4_title">4.7+8等于几?</div>
+				<div class="choice_box">
+					<div class="content" id="single_4_A">A.等于9</div>
+					<div class="content" id="single_4_B">B.等于12</div>
+					<div class="content" id="single_4_C">C.等于15</div>
+					<div class="content" id="single_4_D">D.等于0</div>
+				</div>
+			</div>
+			<div class="content_box" id="single_5">
+				<select class="single_choice rightF" id="single_5_choice">
+					<option value="0">请选择正确答案</option>
+					<option value="1">A</option>
+					<option value="2">B</option>
+					<option value="3">C</option>
+					<option value="4">D</option>
+				</select>
+				<div class="content" id="single_5_title">5.5-3+2等于几？</div>
+				<div class="choice_box">
+					<div class="content" id="single_5_A">A.等于4</div>
+					<div class="content" id="single_5_B">B.等于11</div>
+					<div class="content" id="single_5_C">C.等于332</div>
+					<div class="content" id="single_5_D">D.等于243</div>
+				</div>
+			</div>
+		</div>
+		<div class="block" id="multi_block">
+			<div class="title" id="multi_title">二、多项选择</div>
+			<div class="content_box" id="multi_1">
+				<div class="content" id="multi_1_title">1.在不是脑筋急转弯的情况下，1+1等于几?</div>
+				<div class="choice_box">
+					<div class="content">
+						<input type="checkbox" class="check" id="multi_1_choice_A"><span id="multi_1_A">A.等于1</span></input>
+					</div>
+					<div class="content">
+						<input type="checkbox" class="check" id="multi_1_choice_B"><span id="multi_1_B">B.等于11</span></input>
+					</div>
+					<div class="content">
+						<input type="checkbox" class="check" id="multi_1_choice_C"><span id="multi_1_C">C.等于2</span></input>
+					</div>
+					<div class="content">
+						<input type="checkbox" class="check" id="multi_1_choice_D"><span id="multi_1_D">D.等于0</span></input>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="block" id="judge_block">
+			<div class="title" id="judge_title">三、判断正误</div>
+			<div class="content_box" id="judge_1">
+				<select class="judge_choice rightF" id="judge_1_choice">
+					<option value="0">请选择正确答案</option>
+					<option value="1">T</option>
+					<option value="2">F</option>
+				</select>
+				<div class="content" id="judge_1_title">1.在不是脑筋急转弯的情况下，1+1=2</div>
+			</div>
+		</div>
+		<div class="block" id="essay_block">
+			<div class="title" id="essay_title">四、简答辨析</div>
+			<div class="content_box" id="essay_1">
+				<div class="content" id="essay_1_title">1.请简要证明拉格朗日中值定理</div>
+				<textarea type="text" class="exam_many_lines" id="essay_1_answer"></textarea>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="clear"></div>
+<div class="exam_foot">
+	<span>Copyright © Jackeriss, Franky Shy</span>
+</div>
+<div class="alert_screen">
+	<div class="alert_block">
+		<div class="alert_msg">注意：考试过程中请不要退出全屏，更不能切换，否则按作弊处理！</div>
+		<button class="alert_btn submit_button">开始考试</button>
+		<a href="student.html"><button class="quit_btn submit_button">退出考试</button></a>
+	</div>
+</div>
+</body>
+</html>

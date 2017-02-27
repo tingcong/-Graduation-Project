@@ -1,0 +1,143 @@
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: OpenSans, 'Arial';
+	background-color: rgba(233,233,233, .7);
+}
+
+.login-wrap {
+	width: 300px;
+	height: auto;
+	margin: 200px auto;
+	padding: 25px;
+	background-color: #fff;
+	border-radius: 1px;
+}
+
+.login-wrap form h2 {
+	margin: 0;
+	font-weight: normal;
+}
+
+.login-wrap form h2,
+.login-wrap form .input-wrap,
+.login-wrap form .input-wrap input {
+	width: 100%;
+	margin-bottom: 12px;
+}
+
+.login-wrap form .input-wrap:last-of-type,
+.login-wrap form .input-wrap input:last-of-type {
+	margin-bottom: 0;
+}
+
+.login-wrap form .input-wrap,
+.login-wrap form .input-wrap input {
+	height: 40px;
+	border: 0;
+}
+
+.login-wrap form .input-wrap input {
+	outline: none;
+	font-size: 17px;
+}
+
+.login-wrap form .input-wrap input[type="submit"] {
+	cursor: pointer;
+	background-color: #65cc99;
+	color: #fff;
+	letter-spacing: .1em;
+}
+
+.login-wrap form .input-wrap input[type="submit"]:active {
+	background-color: #65cc99;
+}
+
+#checkCode-wrap input {
+	width: 125px;
+	clear: both;
+}
+
+#checkCode-wrap #checkCode {
+	background-color: #e9e9e9;
+	width: 98px;
+	height: 30px;
+	float: right;
+	margin-top: 10px;
+	text-align: center;
+	line-height: 30px;
+	letter-spacing: .2em;
+}
+
+.login-wrap form {
+	text-align: center;
+}
+
+.login-wrap form .input-msg {
+	position: relative;
+}
+
+.login-wrap form .input-msg input {
+	border-bottom: 2px solid #e9e9e9;
+	padding: 5px 10px;
+	float: left;
+	transition: .5s;
+	opacity: .8;
+}
+
+.login-wrap form .input-msg input:focus {
+	border-bottom: 2px solid #65cc99;
+}
+
+.login-wrap form .input-msg .input-check {
+	color: red;
+	font-size: 40px;
+	float: right;
+	position: absolute;
+	right: 90px;
+	bottom: 0;
+	width: 37px;
+	height: 37px;
+}
+
+.tabs {
+  display: table;
+  padding: 0;
+  margin: 12px 0;
+  width: 100%;
+}
+.tabs li {
+  float: left;
+  line-height: 38px;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+}
+.tabs a {
+  background-color: #eff0f2;
+  border-bottom: 1px solid #fff;
+  color: #888;
+  font-weight: 500;
+  display: block;
+  letter-spacing: 0;
+  outline: none;
+  padding: 0 30px;
+  text-decoration: none;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  border-bottom: 2px solid #65cc99;
+}
+.current a {
+  color: #fff;
+  background: #65cc99;
+}
+

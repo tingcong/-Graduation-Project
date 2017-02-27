@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<judgmentQuestions> 
+  <question> 
+    <questionID>1</questionID>  
+    <title>实在不知道出什么题啦！神秘代号：JB1正确答案是（F）</title>  
+    <rightChoice>2</rightChoice> 
+  </question>  
+  <question> 
+    <questionID>2</questionID>  
+    <title>实在不知道出什么题啦！神秘代号：JB2正确答案是（T）</title>  
+    <rightChoice>1</rightChoice> 
+  </question>  
+  <question> 
+    <questionID>3</questionID>  
+    <title>实在不知道出什么题啦！神秘代号：JB3正确答案是（F）</title>  
+    <rightChoice>2</rightChoice> 
+  </question>  
+  <question> 
+    <questionID>4</questionID>  
+    <title>实在不知道出什么题啦！神秘代号：JB4正确答案是（T）</title>  
+    <rightChoice>1</rightChoice> 
+  </question>  
+  <question>
+    <questionID>5</questionID>
+    <title>实在不知道出什么题啦！神秘代号：JB5正确答案是（T）</title>
+    <rightChoice>1</rightChoice>
+  </question>
+</judgmentQuestions>

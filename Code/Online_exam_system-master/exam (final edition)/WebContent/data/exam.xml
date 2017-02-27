@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<examinations> 
+  <examination> 
+    <examinationID>1</examinationID>  
+    <courseID>0001</courseID>  
+    <teacherID>soft0001</teacherID>  
+    <ruleID>1</ruleID>  
+    <examinationName>数学2015年上学期期中考试</examinationName>  
+    <dateBegin>1446337800</dateBegin>  
+    <dateEnd>1446348600</dateEnd>  
+    <isScored>1</isScored> 
+  </examination>  
+  <examination> 
+    <examinationID>2</examinationID>  
+    <courseID>0001</courseID>  
+    <teacherID>soft0001</teacherID>  
+    <ruleID>2</ruleID>  
+    <examinationName>数学2015年上学期期末考试</examinationName>  
+    <dateBegin>1450485000</dateBegin>  
+    <dateEnd>1514712600</dateEnd>  
+    <isScored>-1</isScored> 
+  </examination>  
+  <examination> 
+    <examinationID>3</examinationID>  
+    <courseID>0001</courseID>  
+    <teacherID>soft0001</teacherID>  
+    <ruleID>-1</ruleID>  
+    <examinationName>数学2016年下学期期中考试</examinationName>  
+    <dateBegin>1462062600</dateBegin>  
+    <dateEnd>1462073400</dateEnd>  
+    <isScored>-1</isScored> 
+  </examination>  
+  <examination> 
+    <examinationID>4</examinationID>  
+    <courseID>0001</courseID>  
+    <teacherID>soft0001</teacherID>  
+    <ruleID>-1</ruleID>  
+    <examinationName>数学2016年下学期期末考试</examinationName>  
+    <dateBegin>1468110600</dateBegin>  
+    <dateEnd>1468121400</dateEnd>  
+    <isScored>-1</isScored> 
+  </examination>  
+  <examination> 
+    <examinationID>5</examinationID>  
+    <courseID>0001</courseID>  
+    <teacherID>soft0001</teacherID>  
+    <ruleID>3</ruleID>  
+    <examinationName>数学2015年上学期单元测试</examinationName>  
+    <dateBegin>1446337800</dateBegin>  
+    <dateEnd>1446348600</dateEnd>  
+    <isScored>-1</isScored> 
+  </examination> 
+</examinations>

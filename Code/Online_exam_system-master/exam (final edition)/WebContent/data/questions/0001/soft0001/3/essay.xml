@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<essayQuestions> 
+  <question> 
+    <questionID>1</questionID>  
+    <title>实在不知道出什么题啦！神秘代号：EC1</title>  
+    <referenceAnswer>这是EC1的参考答案~</referenceAnswer> 
+  </question>  
+  <question> 
+    <questionID>2</questionID>  
+    <title>实在不知道出什么题啦！神秘代号：EC2</title>  
+    <referenceAnswer>这是EC2的参考答案~</referenceAnswer> 
+  </question>  
+  <question> 
+    <questionID>3</questionID>  
+    <title>实在不知道出什么题啦！神秘代号：EC3</title>  
+    <referenceAnswer>这是EC3的参考答案~</referenceAnswer> 
+  </question>  
+  <question> 
+    <questionID>4</questionID>  
+    <title>实在不知道出什么题啦！神秘代号：EC4</title>  
+    <referenceAnswer>这是EC4的参考答案~</referenceAnswer> 
+  </question>  
+  <question>
+    <questionID>5</questionID>
+    <title>实在不知道出什么题啦！神秘代号：EC5</title>
+    <referenceAnswer>这是EC5的参考答案~</referenceAnswer>
+  </question>
+</essayQuestions>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<singleChoiceQuestions> 
+  <question> 
+    <questionID>1</questionID>  
+    <title>小兔种了5行萝卜，每行9个。送给邻居兔奶奶15个，还剩多少个？</title>  
+    <choices> 
+      <choiceA>19</choiceA>  
+      <choiceB>28</choiceB>  
+      <choiceC>30</choiceC>  
+      <choiceD>15</choiceD> 
+    </choices>  
+    <rightChoice>3</rightChoice> 
+  </question>  
+  <question> 
+    <questionID>2</questionID>  
+    <title>妈妈买了15个苹果，买的橘子比苹果少6个，问一共买了多少个水果？</title>  
+    <choices> 
+      <choiceA>24</choiceA>  
+      <choiceB>20</choiceB>  
+      <choiceC>25</choiceC>  
+      <choiceD>28</choiceD> 
+    </choices>  
+    <rightChoice>1</rightChoice> 
+  </question>  
+  <question> 
+    <questionID>3</questionID>  
+    <title>动物园有熊猫4只，有猴子是熊猫的3倍。问一共有熊猫和猴子多少只？</title>  
+    <choices> 
+      <choiceA>24</choiceA>  
+      <choiceB>25</choiceB>  
+      <choiceC>18</choiceC>  
+      <choiceD>16</choiceD> 
+    </choices>  
+    <rightChoice>4</rightChoice> 
+  </question>  
+  <question> 
+    <questionID>4</questionID>  
+    <title>小汽车每辆能坐4人，大客车能坐25人，有3辆小汽车和1辆大客车。 问一共能坐多少人？</title>  
+    <choices> 
+      <choiceA>36</choiceA>  
+      <choiceB>37</choiceB>  
+      <choiceC>38</choiceC>  
+      <choiceD>39</choiceD> 
+    </choices>  
+    <rightChoice>2</rightChoice> 
+  </question>  
+  <question>
+    <questionID>5</questionID>
+    <title>商店里有4盒皮球，每盒6个，卖出20个，还剩多少个?</title>
+    <choices>
+      <choiceA>3</choiceA>
+      <choiceB>4</choiceB>
+      <choiceC>5</choiceC>
+      <choiceD>6</choiceD>
+    </choices>
+    <rightChoice>2</rightChoice>
+  </question>
+</singleChoiceQuestions>
